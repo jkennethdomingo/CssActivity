@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Advertisement</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            border-bottom: 1px solid #ccc; /* Customize */
+        }
+
+        .product-info {
+            max-width: 50%; /* Adjust as needed */
+        }
+
+        .product-image {
+            max-width: 40%; /* Adjust as needed */
+        }
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            padding: 20px;
+        }
+
+        .feature {
+            flex: 1 1 calc(33.333% - 15px); /* Adjust grid layout */
+            border: 1px solid #ccc; /* Customize */
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Product Name</h1>
+</header>
+<main>
+    <section class="hero">
+        <div class="product-info">
+            <h2>Amazing Product</h2>
+            <p>Brief description of the product and its features.</p>
+        </div>
+        <img class="product-image" src="assets/img/20200719_212209.jpg" alt="Product Image">
+    </section>
+    <section class="features">
+        <div class="feature">
+            <h3>Feature 1</h3>
+            <p>Details about feature 1.</p>
+        </div>
+        <div class="feature">
+            <h3>Feature 2</h3>
+            <p>Details about feature 2.</p>
+        </div>
+        <!-- Add more features as needed -->
+    </section>
+</main>
+<footer>
+    <p>&copy; 2024 Product Name. All rights reserved.</p>
+</footer>
+</body>
+</html>

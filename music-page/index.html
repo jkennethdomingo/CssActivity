@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .music-container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .album-cover {
+            max-width: 300px;
+            margin: 0 auto;
+            border: 1px solid #ccc; /* Customize */
+        }
+
+        .lyrics {
+            padding: 20px;
+            text-align: left;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <section class="music-container">
+        <h1>Song Title</h1>
+        <h2>Artist Name</h2>
+        <img class="album-cover" src="assets/img/Parallel-Universe-Cover.jpg" alt="Album Cover">
+        <audio controls>
+            <source src="song.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+    <section class="lyrics">
+        <h3>Lyrics</h3>
+        <p>Verse 1: Lorem ipsum dolor sit amet...</p>
+        <p>Chorus: Consectetur adipiscing elit...</p>
+    </section>
+</main>
+<footer>
+    <p>&copy; 2024 Music Name. All rights reserved.</p>
+</footer>
+</body>
+</html>

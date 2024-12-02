@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <style>
+        /* Basic Reset */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            border-bottom: 1px solid #ccc; /* Customize color */
+        }
+
+        .profile-container {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .profile-details {
+            flex-grow: 1;
+        }
+
+        .about {
+            padding: 20px;
+            border-top: 1px solid #ccc;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            padding: 20px;
+            border-top: 1px solid #ccc;
+        }
+
+        .skill {
+            border: 1px solid #ccc; /* Customize */
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>User Profile</h1>
+</header>
+<main>
+    <section class="profile-container">
+        <img class="profile-image" src="assets/img/20200719_212209.jpg" alt="Profile Picture">
+        <div class="profile-details">
+            <h2>Your Name</h2>
+            <p><strong>Email:</strong> your.email@example.com</p>
+            <p><strong>Location:</strong> City, Country</p>
+        </div>
+    </section>
+    <section class="about">
+        <h3>About Me</h3>
+        <p>
+            Write a brief introduction about yourself. Include your background, interests, or professional summary.
+        </p>
+    </section>
+    <section class="skills">
+        <h3>Skills</h3>
+        <div class="skill">
+            <h4>Skill 1</h4>
+            <p>Short description</p>
+        </div>
+        <div class="skill">
+            <h4>Skill 2</h4>
+            <p>Short description</p>
+        </div>
+        <!-- Add more skills as needed -->
+    </section>
+</main>
+<footer>
+    <p>&copy; 2024 Your Name. All rights reserved.</p>
+</footer>
+</body>
+</html>
